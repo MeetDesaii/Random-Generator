@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Random Generator</string>
+    <string name="toast">About</string>
+    <string name="random">Random</string>
+    <string name="count">Count</string>
+    <string name="detail_text">Here, We have a random number for you (Between 1 to 100)</string>
+    <string name="count_number">0</string>
+</resources>

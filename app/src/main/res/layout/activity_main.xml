@@ -28,6 +28,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:weightSum="3"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -40,7 +41,8 @@
             android:layout_height="wrap_content"
             android:backgroundTint="@color/button_background"
             android:fontFamily="@font/gilroy_regular"
-            android:text="@string/count" />
+            android:text="@string/count"
+            android:layout_weight="1"/>
 
         <Button
             android:id="@+id/btnRandom"
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
+            android:layout_weight="1"
             android:backgroundTint="@color/button_background"
             android:fontFamily="@font/gilroy_regular"
             android:text="@string/random" />
@@ -56,6 +59,7 @@
             android:id="@+id/btnAbout"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:backgroundTint="@color/button_background"
             android:fontFamily="@font/gilroy_regular"
             android:text="@string/toast" />

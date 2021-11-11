@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#5670B1">
+    android:background="#E5E5E5">
 
     <TextView
         android:id="@+id/countTextView"
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/gilroy_regular"
         android:text=""
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="17sp"
 
         app:layout_constraintBottom_toTopOf="@+id/textView3"

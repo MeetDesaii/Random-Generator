@@ -22,8 +22,7 @@ public class SecondActivity extends AppCompatActivity {
         int count = intent.getIntExtra("count",0);
 
         Random random = new Random();
-        int randomNumber;
-        randomNumber = random.nextInt(count+1);
+        int randomNumber = random.nextInt(count+1);
 
         textView.setText("Here, We have a random number for you (Between 0 to "+count+")");
         textView2.setText(""+randomNumber);
